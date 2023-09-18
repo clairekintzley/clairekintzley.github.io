@@ -14,46 +14,33 @@ body {
 }
 
 header {
-    background-color: #6de4a7eb;
+    background-color: #e7aeebeb;
     color: #fff;
     text-align: center;
-    padding: 3rem 0;
+    padding: 0; /* Remove padding to take up the whole page */
 }
 
 .header-content {
     max-width: 800px;
     margin: 0 auto;
+    padding: 3rem 0; /* Add padding here for content spacing */
 }
 
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-}
-
-header p {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.contact-icons {
-    list-style: none;
-    padding: 0;
+    font-size: 3rem; /* Increase font size */
+    margin-bottom: 1rem; /* Adjust spacing */
 }
 
 .contact-icons li {
-    display: inline;
+    display: inline-block; /* Display logos in a row */
     margin-right: 20px;
 }
 
 .contact-icons a img {
-    width: 30px;
-    height: 30px;
+    width: 50px; /* Increase logo size */
+    height: 50px;
     border-radius: 50%;
     transition: opacity 0.3s;
-}
-
-.contact-icons a img:hover {
-    opacity: 0.8;
 }
 
 section {
@@ -80,7 +67,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #6de4a7eb;
+    color: #e7aeebeb;
 }
 
 a:hover {
@@ -88,7 +75,7 @@ a:hover {
 }
 
 button {
-    background-color: #6de4a7eb;
+    background-color: #e7aeebeb;
     color: #fff;
     border: none;
     padding: 0.5rem 1rem;
@@ -98,7 +85,7 @@ button {
 }
 
 button:hover {
-    background-color: #6de4a7eb;
+    background-color: #e7aeebeb;
 }
 
 /* Media queries for responsive design */
