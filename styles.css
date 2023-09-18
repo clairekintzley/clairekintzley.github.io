@@ -14,7 +14,8 @@ body {
 }
 
 header {
-    background-color: #e7aeebeb;
+    background-image: url('Logos/pexels-stephan-seeber-1054218.jpg'); /* Replace 'pattern.png' with your pattern image file path */
+    background-repeat: repeat; /* Set how the pattern repeats */
     color: #fff;
     text-align: center;
     padding: 0; /* Remove padding to take up the whole page */
@@ -39,7 +40,6 @@ header h1 {
 .contact-icons a img {
     width: 50px; /* Increase logo size */
     height: 50px;
-    border-radius: 50%;
     transition: opacity 0.3s;
 }
 
