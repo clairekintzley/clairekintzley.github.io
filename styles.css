@@ -96,7 +96,7 @@ li {
 
 a {
     text-decoration: none; /* Remove underlines from links */
-    color: #98dae3; /* Set the color for links */
+    color: #000000; /* Set the color for links */
 }
 
 a:hover {
@@ -203,16 +203,24 @@ button:hover {
 .about-item {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem; /* Add space below each about-item if needed */
 }
 
 .about-img {
-    width: 200px; /* Adjust the size as needed */
+    width: 200px; /* Adjust size as needed */
     height: auto;
     margin-right: 15px;
-    border-radius: 50%; /* Optional: make the image circular */
 }
 
 .about-details {
     flex: 1;
+}
+
+.button-container {
+    margin-top: 1rem; /* Add space above the button-container */
+    text-align: center; /* Center the button horizontally */
+}
+
+.button-container button {
+    margin-top: 1rem; /* Add space above the button if needed */
 }
