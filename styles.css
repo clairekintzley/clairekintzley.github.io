@@ -96,7 +96,7 @@ li {
 
 a {
     text-decoration: none; /* Remove underlines from links */
-    color: #fff; /* Set the color for links */
+    color: #98dae3; /* Set the color for links */
 }
 
 a:hover {
@@ -175,7 +175,7 @@ button:hover {
 }
 
 .extracurricular-img {
-    width: 100px; /* Adjust size as needed */
+    width: 150px; /* Adjust size as needed */
     height: auto;
     margin-right: 15px;
 }
@@ -207,7 +207,7 @@ button:hover {
 }
 
 .about-img {
-    width: 100px; /* Adjust the size as needed */
+    width: 200px; /* Adjust the size as needed */
     height: auto;
     margin-right: 15px;
     border-radius: 50%; /* Optional: make the image circular */
