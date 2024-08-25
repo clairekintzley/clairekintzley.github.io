@@ -72,7 +72,7 @@ header h1 {
 }
 
 section {
-    max-width: 800px; /* Set the maximum width for content sections */
+    max-width: 1000px; /* Set the maximum width for content sections */
     margin: 0 auto; /* Center-align content sections */
     padding: 2rem; /* Add padding around content sections */
     background-color: #fff; /* Set the background color for content sections */
@@ -122,7 +122,7 @@ a:hover {
 }
 
 button {
-    background-color: #fff; /* Set the background color for buttons */
+    background-color: #98dae3; /* Set the background color for buttons */
     color: #000000; /* Set the text color for buttons */
     border: none; /* Remove button borders */
     padding: 0.5rem 1rem; /* Add padding to buttons */
@@ -197,5 +197,22 @@ button:hover {
 }
 
 .education-details, .experience-details {
+    flex: 1;
+}
+
+.about-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.about-img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 15px;
+    border-radius: 50%; /* Optional: make the image circular */
+}
+
+.about-details {
     flex: 1;
 }
