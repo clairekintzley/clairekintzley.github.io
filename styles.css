@@ -167,3 +167,35 @@ button:hover {
         font-size: 1.2rem; /* Reduce font size for smaller screens */
     }
 }
+
+.extracurricular-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.extracurricular-img {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 15px;
+}
+
+.extracurricular-details {
+    flex: 1;
+}
+
+.education-item, .experience-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.logo-img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 15px;
+}
+
+.education-details, .experience-details {
+    flex: 1;
+}
